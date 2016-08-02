@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9E287CF1D50E00B00609D0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E287CE1D50E00B00609D0A /* AppDelegate.swift */; };
+		D9E287D41D50E00B00609D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E287D21D50E00B00609D0A /* Main.storyboard */; };
+		D9E287D61D50E00B00609D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E287D51D50E00B00609D0A /* Assets.xcassets */; };
+		D9E287D91D50E00B00609D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E287D71D50E00B00609D0A /* LaunchScreen.storyboard */; };
+		D9E287E11D50E10000609D0A /* FileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E287E01D50E10000609D0A /* FileListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9E287CB1D50E00B00609D0A /* AirDropStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirDropStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E287CE1D50E00B00609D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9E287D31D50E00B00609D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9E287D51D50E00B00609D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9E287D81D50E00B00609D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9E287DA1D50E00B00609D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E287E01D50E10000609D0A /* FileListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9E287C81D50E00B00609D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9E287C21D50E00B00609D0A = {
+			isa = PBXGroup;
+			children = (
+				D9E287CD1D50E00B00609D0A /* AirDropStorage */,
+				D9E287CC1D50E00B00609D0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9E287CC1D50E00B00609D0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9E287CB1D50E00B00609D0A /* AirDropStorage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9E287CD1D50E00B00609D0A /* AirDropStorage */ = {
+			isa = PBXGroup;
+			children = (
+				D9E287CE1D50E00B00609D0A /* AppDelegate.swift */,
+				D9E287E01D50E10000609D0A /* FileListViewController.swift */,
+				D9E287D21D50E00B00609D0A /* Main.storyboard */,
+				D9E287D51D50E00B00609D0A /* Assets.xcassets */,
+				D9E287D71D50E00B00609D0A /* LaunchScreen.storyboard */,
+				D9E287DA1D50E00B00609D0A /* Info.plist */,
+			);
+			path = AirDropStorage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9E287CA1D50E00B00609D0A /* AirDropStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E287DD1D50E00B00609D0A /* Build configuration list for PBXNativeTarget "AirDropStorage" */;
+			buildPhases = (
+				D9E287C71D50E00B00609D0A /* Sources */,
+				D9E287C81D50E00B00609D0A /* Frameworks */,
+				D9E287C91D50E00B00609D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirDropStorage;
+			productName = AirDropStorage;
+			productReference = D9E287CB1D50E00B00609D0A /* AirDropStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9E287C31D50E00B00609D0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = jp.sora0077;
+				TargetAttributes = {
+					D9E287CA1D50E00B00609D0A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B2TD54U4MA;
+						DevelopmentTeamName = "Tatsuya Hayashi (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D9E287C61D50E00B00609D0A /* Build configuration list for PBXProject "AirDropStorage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9E287C21D50E00B00609D0A;
+			productRefGroup = D9E287CC1D50E00B00609D0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9E287CA1D50E00B00609D0A /* AirDropStorage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9E287C91D50E00B00609D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E287D91D50E00B00609D0A /* LaunchScreen.storyboard in Resources */,
+				D9E287D61D50E00B00609D0A /* Assets.xcassets in Resources */,
+				D9E287D41D50E00B00609D0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9E287C71D50E00B00609D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E287E11D50E10000609D0A /* FileListViewController.swift in Sources */,
+				D9E287CF1D50E00B00609D0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9E287D21D50E00B00609D0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E287D31D50E00B00609D0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9E287D71D50E00B00609D0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E287D81D50E00B00609D0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9E287DB1D50E00B00609D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9E287DC1D50E00B00609D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9E287DE1D50E00B00609D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirDropStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.sora0077.AirDropStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D9E287DF1D50E00B00609D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirDropStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.sora0077.AirDropStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9E287C61D50E00B00609D0A /* Build configuration list for PBXProject "AirDropStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E287DB1D50E00B00609D0A /* Debug */,
+				D9E287DC1D50E00B00609D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E287DD1D50E00B00609D0A /* Build configuration list for PBXNativeTarget "AirDropStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E287DE1D50E00B00609D0A /* Debug */,
+				D9E287DF1D50E00B00609D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9E287C31D50E00B00609D0A /* Project object */;
+}
